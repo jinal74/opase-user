@@ -1,0 +1,133 @@
+.rtd-table-profile img {
+  border-radius: 10px;
+  overflow: hidden;
+  object-fit: cover;
+  width: 70px;
+  height: 70px;
+}
+
+.rtd-table-black-bg {
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 15px;
+}
+
+.rtd-table-search-btn input {
+  height: 50px;
+  font-size: 15px;
+  font-weight: 500;
+  padding-right: 50px;
+  color: #fff;
+  border: 1px solid rgba(130, 130, 130, 0.2);
+  border-radius: 25px;
+  background: rgba(18, 18, 18, 0.5);
+}
+
+.rtd-table-search-btn input:focus {
+  color: #fff;
+  background-color: rgba(18, 18, 18, 0.5);
+  border: 1px solid rgba(130, 130, 130, 0.2);
+  box-shadow: 0 0 3px #7c64f8;
+}
+.rtd-table-search-btn svg {
+  position: absolute;
+  bottom: 50%;
+  top: 50%;
+  right: 15px;
+  margin: auto 0;
+}
+.rtd-table-main-div table {
+  color: #fff;
+  border-collapse: separate;
+  border-spacing: 0 9px;
+}
+
+.rtd-table-main-div thead th:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+.rtd-table-main-div thead th:last-child {
+  border-radius: 0 10px 10px 0;
+}
+.rtd-table-main-div tbody td:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+.rtd-table-main-div tbody td:first-child {
+  border-left: 1px solid rgba(96, 91, 106, 0.2);
+}
+.rtd-table-main-div thead th {
+  text-transform: capitalize;
+  font-weight: 700 !important;
+  font-size: 15px;
+  line-height: 27px;
+  color: #fff;
+  padding: 16px;
+  white-space: nowrap;
+  border-bottom: 0;
+  text-align: left;
+  vertical-align: middle !important;
+  background-color: rgba(130, 130, 130, 0.1);
+  position: unset;
+  margin: 0;
+}
+
+.rtd-table-main-div tbody td {
+  border-radius: 0px;
+  border-bottom: 1px solid #282828;
+  border-top: 1px solid #282828;
+  vertical-align: middle;
+}
+
+.rtd-table-main-div tbody td:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+.rtd-table-main-div tbody td:last-child {
+  border-right: 1px solid rgba(96, 91, 106, 0.2);
+}
+
+.pagination-custom-info {
+  border: 1px solid #474747;
+  border-radius: 10px;
+  padding: 5px;
+}
+.pagination-custom-info .page-item.active .page-link {
+  color: #fff;
+  background-color: #7c64f8 !important;
+  border-color: #7c64f8 !important;
+}
+.pagination-custom-info .page-item {
+  display: flex;
+  align-items: center;
+}
+.pagination-custom-info .page-link {
+  border-radius: 5px;
+  color: #fff !important;
+  border: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.custom-table-btm .form-select {
+  color: #ffff;
+  background: #121212;
+  border: 1px solid #474747;
+  background-image: url('../images/aerrow_down_white.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.custom-table-btm .form-select:focus {
+  border-color: #53488b;
+  box-shadow: none;
+}
+
+.video-upload-fix {
+  width: 200px;
+  height: 175px;
+}
+.video-upload-fix video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
